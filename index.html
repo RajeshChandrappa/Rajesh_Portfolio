@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rajesh C portfolio - Software Developer, Cybersecurity Enthusiast, Red Team Operations, AI Security, Python, Java, REST APIs, Django, Flask, and ML projects.">
+    <meta property="og:title" content="Rajesh C - Cybersecurity & Software Developer Portfolio">
+    <meta property="og:description" content="Dark neon portfolio for Rajesh C covering cybersecurity, AI security, red team operations, software development, and WebGuard AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/profile.webp">
+    <title>Rajesh C | Cybersecurity & Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="cyber-canvas" aria-hidden="true"></canvas>
+    <div class="scanline" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+        <nav class="nav-wrap" aria-label="Primary navigation">
+            <a class="brand" href="#home" aria-label="Rajesh C home"><span>Ra</span>jesh <span>C</span></a>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="nav-menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-icon" href="https://github.com/RajeshChandrappa" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a></li>
+                <li><a class="nav-icon" href="tel:+918904422972" aria-label="Call Rajesh"><i class="fa-solid fa-phone"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section-pad">
+            <div class="container hero-card reveal tilt-card">
+                <div class="avatar-panel">
+                    <div class="avatar-orbit" aria-hidden="true"></div>
+                    <img src="assets/profile.webp" alt="Portrait of Rajesh C" class="hero-avatar">
+                </div>
+                <div class="hero-copy">
+                    <p class="status-pill"><span></span> Available for software and security roles</p>
+                    <h1>Rajesh&nbsp; C</h1>
+                    <h2><span>Cybersecurity Enthusiast</span> | Red Team Operations | VAPT Specialist</h2>
+                    <p class="hero-text">Software Developer with hands-on experience in Python, Java, REST APIs, full-stack web development, ML systems, RAG security, and authorized red team operations.</p>
+                    <p class="type-line">Focused on <span id="typewriter">secure web applications</span></p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="assets/RAJESH___RESUME.pdf" download><i class="fa-solid fa-download"></i> Download Resume</a>
+                        <a class="btn btn-outline" href="#projects">View Projects</a>
+                        <a class="btn btn-outline" href="mailto:rajeshchandrappa999@gmail.com">Contact Me</a>
+                    </div>
+                    <div class="quick-links" aria-label="Quick links">
+                        <a href="https://github.com/RajeshChandrappa" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                        <a href="tel:+918904422972">Call Me</a>
+                        <a href="https://linkedin.com/in/rajesh890" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section-pad about-section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="section-label">Profile</p>
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <article class="glass-card about-card reveal tilt-card">
+                        <p>Motivated and detail-oriented MCA graduate profile with expertise in cybersecurity, software development, and cutting-edge AI security practices. Currently focused on building secure systems and identifying vulnerabilities through hands-on red team operations.</p>
+                        <p>Experienced in developing scalable web applications, RESTful APIs, ML-powered workflows, phishing detection systems, RAG security assessments, and prompt injection testing.</p>
+                        <blockquote>My mission is contributing to secure digital infrastructure by solving real-world security challenges through proactive threat detection, ethical hacking, and reliable software engineering.</blockquote>
+                        <div class="edu-grid">
+                            <div><strong>MCA (2025)</strong><span>CGPA 8.3 - CMR Institute of Technology</span></div>
+                            <div><strong>BCA (2023)</strong><span>83% - Govt. First Grade College</span></div>
+                        </div>
+                    </article>
+                    <aside class="about-side reveal">
+                        <div class="stat-card glow-box">
+                            <div><strong class="counter" data-target="8.3">0</strong><span>Current CGPA</span></div>
+                            <div><strong class="counter" data-target="83">0</strong><span>BCA Percentage</span></div>
+                        </div>
+                        <div class="recognition-card tilt-card">
+                            <i class="fa-solid fa-trophy"></i>
+                            <h3>Government Recognition</h3>
+                            <p>Central Government of India acknowledged an OTP bombing vulnerability report in Nov 2024.</p>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-pad skills-section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="section-label">Capability Map</p>
+                    <h2>Skills & Expertise</h2>
+                    <p>Cybersecurity, AI security, and full-stack engineering skills aligned with the resume.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card glass-card reveal tilt-card">
+                        <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Cybersecurity & AI Security</h3>
+                        <div class="skill-row" data-level="95"><span>OWASP LLM Top 10</span><b>95%</b><i></i></div>
+                        <div class="skill-row" data-level="92"><span>Prompt Injection Testing</span><b>92%</b><i></i></div>
+                        <div class="skill-row" data-level="90"><span>RAG Poisoning Research</span><b>90%</b><i></i></div>
+                        <div class="skill-row" data-level="86"><span>Adversarial ML</span><b>86%</b><i></i></div>
+                        <div class="skill-row" data-level="88"><span>AI Output Validation</span><b>88%</b><i></i></div>
+                        <div class="badge">AI Security Focus</div>
+                    </article>
+                    <article class="skill-card glass-card reveal tilt-card">
+                        <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Programming Languages</h3>
+                        <div class="skill-row" data-level="95"><span>Python</span><b>95%</b><i></i></div>
+                        <div class="skill-row" data-level="88"><span>JavaScript</span><b>88%</b><i></i></div>
+                        <div class="skill-row" data-level="85"><span>Java</span><b>85%</b><i></i></div>
+                        <div class="skill-row" data-level="82"><span>C++</span><b>82%</b><i></i></div>
+                        <div class="skill-row" data-level="84"><span>SQL</span><b>84%</b><i></i></div>
+                        <div class="badge">Developer Core</div>
+                    </article>
+                    <article class="skill-card glass-card reveal tilt-card">
+                        <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Web Technologies</h3>
+                        <div class="skill-row" data-level="95"><span>HTML</span><b>95%</b><i></i></div>
+                        <div class="skill-row" data-level="92"><span>CSS</span><b>92%</b><i></i></div>
+                        <div class="skill-row" data-level="88"><span>Django</span><b>88%</b><i></i></div>
+                        <div class="skill-row" data-level="85"><span>Flask</span><b>85%</b><i></i></div>
+                        <div class="skill-row" data-level="90"><span>REST APIs</span><b>90%</b><i></i></div>
+                        <div class="skill-row" data-level="86"><span>MySQL / SQLite</span><b>86%</b><i></i></div>
+                    </article>
+                    <article class="skill-card glass-card reveal tilt-card">
+                        <div class="skill-icon"><i class="fa-solid fa-crosshairs"></i></div>
+                        <h3>Offensive Security</h3>
+                        <div class="skill-row" data-level="91"><span>Red Team Operations</span><b>91%</b><i></i></div>
+                        <div class="skill-row" data-level="89"><span>Vulnerability Assessment</span><b>89%</b><i></i></div>
+                        <div class="skill-row" data-level="87"><span>Endpoint Security Testing</span><b>87%</b><i></i></div>
+                        <div class="skill-row" data-level="84"><span>Privilege Escalation Concepts</span><b>84%</b><i></i></div>
+                        <div class="skill-row" data-level="90"><span>Security Reporting</span><b>90%</b><i></i></div>
+                        <div class="badge">Penetration Testing Track</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="section-pad experience-section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="section-label">Timeline</p>
+                    <h2>Professional Experience</h2>
+                </div>
+                <div class="timeline">
+                    <article class="timeline-card left reveal tilt-card">
+                        <div class="timeline-dot"></div>
+                        <h3>Security Operations Intern - Red Team</h3>
+                        <h4>o9 Solutions</h4>
+                        <p class="date">Mar 2025 - Sep 2025</p>
+                        <p>Six-month internship focused on authorized offensive security operations and vulnerability assessment.</p>
+                        <ul>
+                            <li>Performed controlled adversary simulations to identify endpoint detection gaps.</li>
+                            <li>Built Windows security test payloads for privilege escalation and lateral movement analysis.</li>
+                            <li>Collaborated with engineers to document attack vectors relevant to AI pipeline integrity.</li>
+                        </ul>
+                    </article>
+                    <article class="timeline-card right reveal tilt-card">
+                        <div class="timeline-dot"></div>
+                        <h3>Security Operations Intern - AI Security</h3>
+                        <h4>o9 Solutions</h4>
+                        <p class="date">Sep 2025 - Mar 2026</p>
+                        <p>AI security internship focused on RAG pipeline risk, prompt injection, and internal LLM assistant safety.</p>
+                        <ul>
+                            <li>Researched RAG poisoning on internal AI knowledge bases and retrieval pipelines.</li>
+                            <li>Evaluated prompt injection and data exfiltration vectors in LLM assistant workflows.</li>
+                            <li>Produced remediation-focused AI safety reporting mapped to OWASP LLM Top 10.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-pad projects-section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="section-label">Selected Work</p>
+                    <h2>Featured Projects</h2>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card glass-card reveal tilt-card" data-category="security ml">
+                        <div class="project-mark"></div>
+                        <h3>WebGuard AI</h3>
+                        <p>Real-time phishing detection using Python, Django, and machine learning. Accurate URL classification through domain age, WHOIS data, path entropy, redirects, authentication, and admin monitoring.</p>
+                        <div class="chips"><span>Python</span><span>Django</span><span>ML</span><span>Scikit-learn</span><span>Security</span></div>
+                        <a class="project-link" href="assets/RAJESH___RESUME.pdf" download><i class="fa-solid fa-file-arrow-down"></i> Resume Case Study</a>
+                    </article>
+                    <article class="project-card glass-card reveal tilt-card hot" data-category="security ai">
+                        <div class="project-mark"></div>
+                        <h3>RAG Security Assessment</h3>
+                        <p>AI knowledge-base security research covering document ingestion, chunking, retrieval behavior, RAG poisoning risk, prompt injection, output validation, and remediation recommendations.</p>
+                        <div class="chips"><span>RAG</span><span>LLM</span><span>OWASP LLM</span><span>Vector DB</span></div>
+                        <a class="project-link" href="#experience"><i class="fa-solid fa-arrow-right"></i> View Experience</a>
+                    </article>
+                    <article class="project-card glass-card reveal tilt-card" data-category="dev web">
+                        <div class="project-mark"></div>
+                        <h3>Secure API Dashboard</h3>
+                        <p>Full-stack application pattern for secure login, RESTful data flows, admin views, detection history tracking, and clean dashboard operations using Django, Flask, SQL, HTML, and CSS.</p>
+                        <div class="chips"><span>REST APIs</span><span>Django</span><span>Flask</span><span>SQL</span></div>
+                        <a class="project-link" href="mailto:rajeshchandrappa999@gmail.com"><i class="fa-solid fa-paper-plane"></i> Discuss Project</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-pad contact-section">
+            <div class="container contact-card glass-card reveal">
+                <div>
+                    <p class="section-label">Contact</p>
+                    <h2>Ready to build secure, useful systems.</h2>
+                    <p>Open to software development, backend engineering, full-stack web, cybersecurity, AI security, and ML application opportunities.</p>
+                    <div class="contact-actions">
+                        <a class="btn btn-primary" href="mailto:rajeshchandrappa999@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a>
+                        <a class="btn btn-outline" href="tel:+918904422972"><i class="fa-solid fa-phone"></i> Call Me</a>
+                        <a class="btn btn-outline" href="https://linkedin.com/in/rajesh890" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Your email" autocomplete="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell me about the opportunity" required></textarea>
+                    <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Email</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand footer-brand" href="#home"><span>Ra</span>jesh <span>C</span></a>
+            <p>Cybersecurity Enthusiast | Red Team Operations | Software Developer</p>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="footer-buttons">
+                <a href="https://github.com/RajeshChandrappa" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                <a href="tel:+918904422972">Call Me</a>
+            </div>
+            <button class="back-top" type="button" id="back-top">Back to Top</button>
+            <small>&copy; 2026 Rajesh C. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
